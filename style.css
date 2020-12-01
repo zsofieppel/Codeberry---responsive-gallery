@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    background:#32a87f;
+}
+
+article {
+    text-align:center;
+    padding: 1rem;
+}
+
+h1{
+    padding:1.5rem;
+}
+
+figure {
+    width: 24%;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
+
+.fullsize {
+    display: block;
+    color: #ebca4b;
+}
+
+.mediumsize{
+    display: none;
+    color: #851c81;
+}
+
+.smallsize{
+    display: none;
+    color: #801a06;
+}
+
+/* FELADATOK: */
+
+/* 1. Írj egy media query-t, ami megtöri az oldalt, ha az 968px-nél kisebb méretű.
+    1.1 Cseréld le a weboldal háttérszínét a #279eb0 színre.
+    1.2 Old meg, hogy a képernyőn egyszerre csak 2 db kép jelenjen meg.
+    1.3 Cseréld le a címsor alatti paragrafust úgy, hogy az a közepes képernyőkre érvényes szöveget és színt jelenítse meg. 
+    1.4 Rejtsd el a képernyőről a teljes képernyőre érvényes paragrafust.
+
+2. Írj egy media query-t, ami megtöri az oldalt, ha az 768px-nél kisebb méretű.
+    2.1 Cseréld le a weboldal háttérszínét a #4863e8 színre.
+    2.2 Old meg, hogy a képernyőn egyszerre csak 1 db kép jelenjen meg.
+    2.3 Cseréld le a címsor alatti paragrafust úgy, hogy az a legkisebb képernyőkre érvényes szöveget és színt jelenítse meg. 
+    2.4 Rejtsd el a képernyőről a közepes képernyőre érvényes paragrafust.
+    
+3. Extra feladat: Követi-e az oldal a mobile-first elvet? Alakítsd át a kódot úgy, hogy megfeleljen a mobile-first szempontoknak.
+    
+*/
+
