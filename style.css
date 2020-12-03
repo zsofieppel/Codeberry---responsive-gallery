@@ -42,6 +42,36 @@ img {
     color: #801a06;
 }
 
+@media screen and (max-width:968px) {
+    main{
+        background: #279eb0   
+    }
+    .mediumsize{
+        display: block;
+    }
+    .fullsize{
+        display: none
+    }
+    figure{
+        width: 49%
+    }
+}
+
+@media screen and (max-width:768px) {
+    main{
+        background:#4863e8 
+    }
+    .smallsize{
+        display: block;
+    }
+    .mediumsize{
+        display: none
+    }
+    figure{
+        width: 100%
+    }
+}
+
 /* FELADATOK: */
 
 /* 1. Írj egy media query-t, ami megtöri az oldalt, ha az 968px-nél kisebb méretű.
